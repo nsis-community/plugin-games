@@ -30,5 +30,6 @@ jobs:
             Contrib/Games/GamesDllSrc/TinyXML/tinyxml.cpp
             Contrib/Games/GamesDllSrc/TinyXML/tinyxmlerror.cpp
             Contrib/Games/GamesDllSrc/TinyXML/tinyxmlparser.cpp
+          targets: x86-ansi
           strict: false
           release: ${{ github.event_name == 'release' }}
